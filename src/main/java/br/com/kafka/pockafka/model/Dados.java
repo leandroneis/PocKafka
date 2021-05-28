@@ -1,4 +1,4 @@
-package br.com.kafka.PocKafka.model;
+package br.com.kafka.pockafka.model;
 
 public class Dados {
 

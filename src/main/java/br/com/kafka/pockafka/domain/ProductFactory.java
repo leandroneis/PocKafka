@@ -3,7 +3,7 @@ package br.com.kafka.pockafka.domain;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-
+import lombok.NoArgsConstructor;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -11,6 +11,7 @@ import javax.persistence.Id;
 @Builder
 @AllArgsConstructor
 @Entity
+@NoArgsConstructor
 public class ProductFactory {
 
     @Id
