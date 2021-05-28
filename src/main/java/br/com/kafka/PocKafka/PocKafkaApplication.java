@@ -1,4 +1,4 @@
-package br.com.kafka.PocKafka;
+package br.com.kafka.pockafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package br.com.kafka.PocKafka;
+package br.com.kafka.pockafka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
