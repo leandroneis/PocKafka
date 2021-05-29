@@ -3,11 +3,7 @@ package br.com.kafka.pockafka.resource;
 
 import br.com.kafka.pockafka.domain.CreditCard;
 import br.com.kafka.pockafka.domain.SystemSpecificValues;
-import br.com.kafka.pockafka.domain.dto.ProductFactoryDto;
-import br.com.kafka.pockafka.domain.Status;
-import br.com.kafka.pockafka.utils.RandomUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

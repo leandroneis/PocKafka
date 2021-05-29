@@ -1,6 +1,5 @@
 package br.com.kafka.pockafka.config;
 
-import br.com.kafka.pockafka.domain.dto.ProductFactoryDto;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;

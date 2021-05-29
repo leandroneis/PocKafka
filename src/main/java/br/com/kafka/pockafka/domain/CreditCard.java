@@ -6,12 +6,12 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 
 @Data
 @Builder
 @AllArgsConstructor
-@Entity
 @NoArgsConstructor
 public class CreditCard {
     @JsonProperty(value = "sourceSystem")
@@ -29,7 +29,6 @@ public class CreditCard {
     private String issuerAuthorizationCode;
     @JsonProperty(value = "acquirerTransactionNumber")
     private String acquirerTransactionNumber;
-
     private SystemSpecificValues systemSpecificValues;
 
 }

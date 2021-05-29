@@ -9,13 +9,15 @@ import java.io.Serializable;
 
 @Data
 @Builder
-public class ProductFactoryDto implements Serializable {
+public class CoherentDto implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    private String id;
+    private String transactionId;
+    private String sourceSystem;
+    private String fileSystem;
     private String message;
-    private Status status;
-    private String fileName;
-    private String topicName;
+    private String data;
+    private String errorCode;
+    private String status;
 }
