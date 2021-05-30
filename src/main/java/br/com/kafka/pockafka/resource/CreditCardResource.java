@@ -37,11 +37,11 @@ public class CreditCardResource {
                 .issuerAuthorizationCode("757806")
                 .acquirerTransactionNumber("0724075404046")
                 .systemSpecificValues(SystemSpecificValues.builder()
-                        .nr_movcobrcartaocred("999")
-                        .nr_tokencartaocred("7030000000000355974")
-                        .dt_venctocobr("2021-05-12")
-                        .nr_movcobrcartaocred("999")
-                        .tp_opercobr("P")
+                        .sequenceNumberCreditCard("999")
+                        .tokenNumberCreditCard("7030000000000355974")
+                        .billingDueDate("2021-05-12")
+                        .numberMovementChargeCreditCard("999")
+                        .operationType("P")
                         .build()).build());
         return PUBLISHED_SUCCESSFULLY + TOPIC1;
     }
